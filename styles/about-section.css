@@ -1,0 +1,82 @@
+
+/* About section */
+
+.about {
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+.about .about-header h2 {
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+}
+.about-header {
+    position: relative;
+    margin-bottom: 60px;
+}
+.about-open {
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+.about-closing {
+    position: absolute;
+    left: -30px;
+    
+}
+
+.about .about-content p {
+    position: relative;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(87, 87, 87);
+    text-align: justify; 
+    
+}
+.about-content {
+    position: relative;
+    margin: 20px;
+}
+.open-about-p {
+    position: absolute;
+    top: -15px;
+    left: -30px;
+}
+
+.closing-about-p {
+    position: absolute;
+    left: -30px;
+}
+
+/* Education section */
+.education-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #d3d0ce;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: justify;
+    margin: 15px;
+    border-radius: 10px;
+}
+.card ul {
+    list-style: none;
+}
+.card-header-one {
+    background-image: url('../images/html-css-js-bw.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    margin: 20px;
+
+}
+.card-header-two {
+    background: url('../images/java-bw.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    margin: 20px;
+}
+
