@@ -1,24 +1,74 @@
 .nav {
     position: relative;
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(37, 37, 37);
     position: fixed;
     left: 0;
     height: 100%;
+    z-index: 2;
 }
-.nav-content ul {
-    padding: 0;
+
+/*  btns */
+.btn-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.nav-content a {
-    font-size: 60px;
-    color: gray;
-}
+.button {
+    position: relative;
+    padding: 1em 1.5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  .button.type1 {
+    color: #08fdd8;
+    opacity: 0.7;
+  }
+  .button.type1.type1::after, .button.type1.type1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 2px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+  }
+  .button.type1.type1::after {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #566473;
+    border-right-color: #566473;
+  }
+  .button.type1.type1::before {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #566473;
+    border-left-color: #566473;
+  }
+  .button.type1.type1:hover:after, .button.type1.type1:hover:before {
+    width: 100%;
+    height: 100%;
+  }
+/*  btns */
 .nav-content {
     height: 100%;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 20px;
 }
 .profile-img {
     background: url('../images/profile-img.jpg');
@@ -36,11 +86,12 @@
 .closing-nav {
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
 }
-.contacts h2 {
-    margin: 0;
-    color: rgb(148, 148, 148);
-    font-size: 1.9rem;
-    font-style: italic;
+
+.decoration-line {
+    transform: rotate(90deg);
+    border: 3px solid gray;
+    width: 60px;
+    margin-left: 102px;
 }
