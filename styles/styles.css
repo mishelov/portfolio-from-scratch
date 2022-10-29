@@ -6,7 +6,7 @@ body {
     font-size: 14px;
     background-color: #1d1d1d;
 }
-body * {
+* {
     box-sizing: border-box;
 }
 
@@ -27,7 +27,7 @@ a {
 }
 
 
-span {
+.tags {
     color: rgb(134, 134, 134);
     font-family: 'Indie Flower', cursive;
     font-size: 1.5rem;
@@ -42,8 +42,8 @@ p::first-letter {
 /* Heading */
 
 .main {
-    margin-left: 270px;
-}
+    margin-left: 202.23px;
+} 
 
 .head-content {
     text-align: center;

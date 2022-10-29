@@ -9,8 +9,8 @@
 */
 .about {
     position: relative;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 120px;
     z-index: 1;
 }
@@ -33,6 +33,7 @@
 .about-header {
     position: relative;
     margin-bottom: 60px;
+    margin-left: inherit;
 }
 .about-open {
     position: absolute;
@@ -55,6 +56,7 @@
 }
 .about-content {
     position: relative;
+    margin-left: inherit;
 }
 .open-about-p {
     position: absolute;

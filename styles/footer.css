@@ -2,15 +2,13 @@
                 /* Fonts */
 
 /*  font-family: 'Indie Flower', cursive;
-    font-family: 'Lobster', cursive;
     font-family: 'Montserrat', sans-serif; 
 */
 
 .footer-container {
-    margin-left: 270px;
+    margin-left: 202.23px;
 }
 .footer {
-    border: 1px solid pink;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +27,7 @@
     list-style: none;
     gap: 20px;
     font-size: 2.2rem;
+    margin-right: 130px;
 }
 .footer-contacts a {
     color: rgb(100, 100, 100);

@@ -1,0 +1,12 @@
+/* contacts */
+.contacts-container {
+    border: 1px solid aqua;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: wheat;
+    margin-bottom: 70px;
+}
+.box {
+    border: 1px solid red;
+}
