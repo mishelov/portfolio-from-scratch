@@ -30,7 +30,11 @@
     margin-right: 130px;
 }
 .footer-contacts a {
-    color: rgb(100, 100, 100);
+    color: rgb(220, 220, 220);
+    
+}
+.footer-contacts a:hover {
+    opacity: 0.5;
 }
 .back-to-the-top {
     border-radius: 50%;

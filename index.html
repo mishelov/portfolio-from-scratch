@@ -12,13 +12,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <!-- Bootstrap CSS v5.2.1 -->
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    /> -->
+
+    <script src="https://kit.fontawesome.com/17191b29a1.js" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,8 +22,11 @@
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!--Responsive  CSS -->
+    <link rel="stylesheet" href="css/responsive-nav.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="./styles/form.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/education.css" />
     <link rel="stylesheet" href="./styles/about-section.css" />
@@ -38,20 +36,39 @@
   <body>
     <div class="container">
       <div class="nav-container">
+
+        <!--Responsive Navigation -->
+        
+        <div class="responsive-nav">
+          <div class="logo">
+            <a href="#">
+              <img src="images/or-logo.png" alt="Logo">
+            </a>
+          </div>
+          <div class="responsive-menu">
+            <a href="#" class="burger-menu">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </div>
         <!-- Navigation -->
         <nav>
           <div class="nav">
             <span class="open-nav tags">&lt;nav&gt;</span>
             <div class="nav-content">
+
               <!-- Profile img -->
+
               <div class="profile-img"></div>
+
               <!-- Buttons -->
+
               <div class="btn-nav" id="btn-nav">
-                <button class="button type1" id="btn-one">About</button>
-                <button class="button type1" id="btn-two">Education</button>
-                <button class="button type1" id="btn-three">Skills</button>
-                <button class="button type1" id="btn-four">Download CV</button>
-                <button class="button type1" id="btn-four">Contacts</button>
+                <button class="button type1 btn" id="btn-one">About</button>
+                <button class="button type1 btn" id="btn-two">Education</button>
+                <button class="button type1 btn" id="btn-three">Skills</button>
+                <button class="button type1" id="btn-four" formtarget="_blank">Download CV</button>
+                <button class="button type1 btn" id="btn-five" >Find Me</button>
               </div>
               <span class="closing-nav tags">&lt;&#47;nav&gt;</span>
             </div>
@@ -59,7 +76,9 @@
         </nav>
       </div>
       <div class="main-container">
+
         <!-- Main content -->
+
         <main>
           <div class="main" id="main">
             <div class="main-content">
@@ -67,26 +86,34 @@
                 <span class="tags">&lt;html&gt;</span>
                 <span class="body-tag tags">&lt;body&gt;</span>
               </div>
+
               <!-- Section Heading -->
+
               <section>
                 <div class="head-content">
                   <div class="head-content-top">
                     <h1>
                       <span class="h-one-tag tags">&lt;h1&gt;</span>
                       Hi,<br />I`m <span class="letter-o">S</span>toyanov
-                      <span class="h-one-closing-tag tags">&lt;&#47;h1&gt;</span>
+                      <span class="h-one-closing-tag tags"
+                        >&lt;&#47;h1&gt;</span
+                      >
                     </h1>
                   </div>
                   <div class="head-content-bottom">
                     <h2>
                       <span class="front-end tags">&lt;h2&gt;</span>
                       Front-End Developer
-                      <span class="front-end-closing tags">&lt;&#47;h2&gt;</span>
+                      <span class="front-end-closing tags"
+                        >&lt;&#47;h2&gt;</span
+                      >
                     </h2>
                   </div>
                 </div>
               </section>
+
               <!-- About section -->
+
               <section>
                 <div class="about">
                   <div class="fake-about">About</div>
@@ -112,7 +139,9 @@
                   </div>
                 </div>
               </section>
+
               <!-- Education  -->
+
               <section>
                 <div class="education">
                   <div class="fake-education">Learn</div>
@@ -125,6 +154,7 @@
                   </div>
                   <span class="card-open tags">&lt;section&gt;</span>
                   <div class="education-content">
+
                     <!-- left card -->
 
                     <div class="card">
@@ -132,7 +162,9 @@
                       <div class="card-content">
                         <h3>Web Programming</h3>
                         <!-- TODO: I need to finish the anchor -->
-                        <a href="https://softacademy.bg/">Soft-Academy</a>
+                        <a href="https://softacademy.bg/" target="_blank"
+                          >Soft-Academy</a
+                        >
                         <h4>27.09.2022 - In Progress</h4>
                         <ul>
                           <li>
@@ -154,12 +186,16 @@
                         </ul>
                       </div>
                     </div>
+
                     <!-- right card -->
+
                     <div class="card">
                       <!-- <div class="card-header-two"></div> -->
                       <div class="card-content">
                         <h3>Java Programming</h3>
-                        <a href="https://softacademy.bg/">Soft-Academy</a>
+                        <a href="https://softacademy.bg/" target="_blank"
+                          >Soft-Academy</a
+                        >
                         <h4>05.05.2022 - 05.08.2022</h4>
                         <ul>
                           <li>
@@ -187,21 +223,39 @@
               </section>
 
               <!-- SKILLS -->
+
               <section>
                 <div class="skills-section-container">
                   <div class="skills-content">
                     <div class="skills-header">
-                      <span class="education-open tags" id="skills">&lt;h2&gt;</span>
+                      <span class="education-open tags" id="skills"
+                        >&lt;h2&gt;</span
+                      >
                       <h2>Skills</h2>
-                      <span class="education-closing tags">&lt;&#47;h2&gt;</span>
+                      <span class="education-closing tags"
+                        >&lt;&#47;h2&gt;</span
+                      >
                     </div>
                     <div class="fake-sentence">Success</div>
                     <div class="skills-container">
+
                       <!-- left tech skills -->
+
                       <div class="card-skills tech-skills">
                         <div class="card-header">
-                          <h3>Technical skills</h3>
+                          <h3>
+                            <span class="technical-opening tags"
+                              >&lt;h3&gt;</span
+                            >
+                            Technical skills
+                            <span class="technical-closing tags"
+                              >&lt;&#47;h3&gt;</span
+                            >
+                          </h3>
                         </div>
+                        <span class="technical-closing tags"
+                          >&lt;section&gt;</span
+                        >
                         <div class="skill-bars">
                           <span>HTML</span>
                           <div class="skill-bar" data-percent="80%">
@@ -210,7 +264,7 @@
                             </div>
                           </div>
                           <span>CSS</span>
-                          <div class="skill-bar" data-percent="70%" >
+                          <div class="skill-bar" data-percent="70%">
                             <div class="bar">
                               <span class="bar-percent">70%</span>
                             </div>
@@ -227,21 +281,35 @@
                               <span class="bar-percent">60%</span>
                             </div>
                           </div>
+                          <span class="technical-closing tags"
+                            >&lt;&#47;section&gt;</span
+                          >
                         </div>
                       </div>
 
                       <!-- right soft skills -->
                       <div class="card-skills soft skills">
                         <div class="card-header">
-                          <h3>Soft skills</h3>
+                          <h3>
+                            <span class="technical-opening tags"
+                              >&lt;h3&gt;</span
+                            >
+                            Soft skills
+                            <span class="technical-closing tags">&lt;&#47;h3&gt;</span>
+                          </h3>
                         </div>
+
                         <div class="skills-card-content">
+                          <span class="soft-p-opening tags">&lt;p&gt;</span>
                           <p>
                             My many years of experience int the field of tourism
                             and hospitality and the positions I have held from
                             trainee to supervisor have helped me to acquire and
                             improve in the following skills.
                           </p>
+                          <span class="soft-p-closing tags"
+                            >&lt;&#47;p&gt;</span
+                          >
                           <ul>
                             <li>Comunication</li>
                             <li>Time Management</li>
@@ -258,10 +326,92 @@
               </section>
               <!-- Contacts -->
               <section>
+                <div class="contacts-header">
+                  <span class="education-open tags" id="contacts"
+                    >&lt;h2&gt;</span
+                  >
+                  <h2>Find Me</h2>
+                  <span class="education-closing tags">&lt;&#47;h2&gt;</span>
+                </div>
                 <div class="contacts-container">
-                  <div class="box">tel</div>
-                  <div class="box">location</div>
-                  <div class="box">email</div>
+                  <div class="box">
+                    <div class="svg svg-phone"></div>
+                    <h6>+359 876 663 394</h6>
+                  </div>
+                  <div class="box">
+                    <div class="svg svg-loc"></div>
+                    <h6>Bulgaria</h6>
+                  </div>
+                  <div class="box">
+                    <div class="svg svg-email"></div>
+                    <h6>o.r.stoyanov@gmail.com</h6>
+                  </div>
+                </div>
+              </section>
+              <!-- contact form -->
+              <!-- I need to finish with tag decor -->
+              <section>
+                <div class="form-container">
+                  <div class="contact-me">
+                    <h6>
+                      <span class="me-opening tags"
+                        >&lt;h6&gt;</span>
+                      Contact <br>
+                      <span class="me">Me</span>
+                      <span class="me-closing tags"
+                        >&lt;&#47;h6&gt;</span>
+                    </h6>
+                  </div>
+                  <form action="mailto:o.r.stoyanov@gmail.com" method="post">
+                    <div class="inputs-text">
+                      <div class="inputs">
+                        <div class="form-input name">
+                          <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Name"
+                            required
+                          />
+                        </div>
+                        <div class="form-input email">
+                          <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email"
+                            required
+                          />
+                        </div>
+                        <div class="form-input subject">
+                          <input
+                            type="text"
+                            name="subject"
+                            id="subject"
+                            placeholder="Subject"
+                            required
+                          />
+                        </div>
+                        <button
+                          type="submit"
+                          class="button type1 submit"
+                          value="Send Message"
+                        >
+                          Send Message
+                        </button>
+                      </div>
+                      <div class="text-area">
+                        <textarea
+                          name="textarea"
+                          id="textarea"
+                          cols="30"
+                          rows="10"
+                          placeholder="Your Message"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                  </form>
                 </div>
               </section>
             </div>
@@ -274,23 +424,16 @@
               <div class="copyright">&copy; Ognyan Stoyanov</div>
               <div class="footer-contacts">
                 <ul>
-                  <!-- <li>
-                    <a href="#">
-                      <i class="fa-solid fa-square-phone"></i>
-                    </a>
-                  </li>
                   <li>
-                    <a href="#">
-                      <i class="fa-solid fa-square-envelope"></i>
-                    </a>
-                  </li> -->
-                  <li>
-                    <a href="#">
+                    <a href="https://github.com/mishelov" target="_blank">
                       <i class="fa-brands fa-square-github"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a
+                      href="https://www.linkedin.com/in/ognyan-stoyanov-573854246/"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-linkedin"></i>
                     </a>
                   </li>
@@ -318,20 +461,6 @@
     ></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="./js/script.js"></script>
-
-    <!-- Bootstrap JavaScript Libraries -->
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-      crossorigin="anonymous"
-    ></script> -->
-
     <!-- <script src="./js/carousel.js"></script> -->
   </body>
 </html>

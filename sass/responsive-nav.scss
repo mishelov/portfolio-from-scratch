@@ -1,0 +1,19 @@
+@import '_variables.scss';
+
+.responsive-nav {
+    display: none;
+    // display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    .logo img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .responsive-menu a {
+        color: $tag-color;
+        font-size: 2.2rem;
+        padding: 10px;
+    }
+}

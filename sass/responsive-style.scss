@@ -1,0 +1,20 @@
+@import '_breakpoints.scss';
+@import '_variables.scss';
+
+
+@media only screen and (max-width: $breakpoint-large-phone) {
+    .nav {
+        display: none;
+    }
+    #main {
+        margin: 0;
+    }
+    .responsive-nav {
+        display: flex;
+    }
+    .head-content {
+        .head-content-top {
+            margin-left: 70px;
+        }
+    }
+}

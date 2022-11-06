@@ -149,6 +149,7 @@
     display: flex;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 60px;
 }
 .card-skills {
     flex: 50%;
@@ -158,11 +159,25 @@
     justify-content: space-between;
 }
 .card-header h3 {
+    position: relative;
     color: white;
     font-size: 2rem;
     opacity: 0.7;
+    margin-bottom: 50px;
+}
+.card-header span {
+    position: absolute;
+}
+.technical-opening {
+    position: absolute;
+    top: -30px;
+}
+.technical-closing {
+    left: 0;
+    bottom: -30px;
 }
 .skills-card-content {
+    position: relative;
     font-size: 1.2rem;
 }
 .skills-card-content ul {
@@ -171,4 +186,11 @@
 }
 .skills-card-content p {
     font-size: 1.5rem;
+}
+.soft-p-opening {
+    position: absolute;
+}
+.soft-p-closing {
+    position: absolute;
+    top: 145px;
 }

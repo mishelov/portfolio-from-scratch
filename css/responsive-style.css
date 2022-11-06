@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  #main {
+    margin: 0;
+  }
+  .responsive-nav {
+    display: flex;
+  }
+  .head-content .head-content-top {
+    margin-left: 70px;
+  }
+}
+
+/*# sourceMappingURL=responsive-style.css.map */

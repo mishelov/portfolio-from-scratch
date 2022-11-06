@@ -1,12 +1,125 @@
 /* contacts */
 .contacts-container {
-    border: 1px solid aqua;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    color: wheat;
-    margin-bottom: 70px;
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.contacts-header {
+    margin-left: 70px;
+}
+.contacts-header h2 {
+    font-size: 4rem;
+    color: #08fdd8;
+    opacity: 0.7;
 }
 .box {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    flex: 1;
+    margin: 10px 30px;
 }
+.box h6 {
+    font-size: 1.5rem;
+}
+.svg {
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.svg-phone {
+    height: 50px;
+    width: 50px;
+    mask-image: url('../images/phone-svgrepo-com.svg');
+    background-color: rgb(151, 151, 151);
+}
+.svg-loc {
+    height: 50px;
+    width: 50px;
+    mask-image: url('../images/location-svgrepo-com.svg');
+    background-color: rgb(151, 151, 151);
+}
+.svg-email {
+    height: 50px;
+    width: 50px;
+    mask-image: url('../images/email-svgrepo-com.svg');
+    background-color: rgb(151, 151, 151);
+}
+
+/* Message form */
+textarea {
+    resize: none;
+    width: 300px;
+    height: 100%;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    opacity: 0.9;
+    outline: none;
+}
+textarea:hover {
+    border-bottom: 3px solid #fd2155;
+}
+input {
+    height: 40px;
+    width: 300px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    opacity: 0.9;
+    outline: none;
+}
+input:hover {
+    border-bottom: 3px solid #fd2155;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    gap: 100px;
+}
+.me {
+    border-bottom: 4px solid #fd2155;
+}
+.contact-me h6 {
+    position: relative;
+    font-size: 3rem;
+    color: #08fdd8;
+}
+.me-opening {
+    position: absolute;
+    top: -20px;
+    font-weight: normal;
+}
+.me-closing {
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    font-weight: normal;
+}
+.inputs-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.subject {
+    margin-bottom: 30px;
+}
+.inputs button {
+    width: 170px;
+    margin-bottom: 0;
+}
+
