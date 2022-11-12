@@ -11,6 +11,22 @@
   .head-content .head-content-top {
     margin-left: 70px;
   }
+  .about .fake-about {
+    font-size: 14rem;
+    left: -120px;
+  }
+  .education .fake-education {
+    font-size: 14rem;
+    top: 70px;
+  }
+  .skills-content .fake-sentence {
+    font-size: 11rem;
+    left: -52px;
+    top: 93px;
+  }
+  .skills-container {
+    flex-direction: column;
+  }
   #footer-container {
     margin: 0;
   }

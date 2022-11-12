@@ -14,7 +14,7 @@ $(document).ready(function () {
         window.location.href='#contacts';
      });
      $('#btn-four').click(function () { 
-      window.open=('https://drive.google.com/file/d/1kKggijEatPnLp_risrHXrERn9YSgUnvd/view?usp=share_link');   
+      window.open('https://drive.google.com/file/d/1kKggijEatPnLp_risrHXrERn9YSgUnvd/view?usp=share_link', '_blank');   
    });
 });
 
