@@ -1,8 +1,7 @@
 @import '_variables.scss';
 
 .responsive-nav {
-    // display: none;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     margin: 5px;
@@ -16,13 +15,14 @@
         font-size: 2.2rem;
         padding: 10px;
     }
+    .menu {
+        display: none;
+    }
     .menu ul {
         list-style: none;
         padding: 0;
         margin: 0;
-        // display: none;
         display: flex;
-        float: left;
         gap: 20px;
         font-size: 1.4rem;
         font-family: $main-font;
@@ -33,4 +33,8 @@
     .menu a:hover {
         border-bottom: 2px solid $decoration-color;
     }
+    .open-menu {
+        display: flex;
+    }
+   
 }
