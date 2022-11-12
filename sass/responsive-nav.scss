@@ -1,8 +1,8 @@
 @import '_variables.scss';
 
 .responsive-nav {
-    display: none;
-    // display: flex;
+    // display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 5px;
@@ -15,5 +15,22 @@
         color: $tag-color;
         font-size: 2.2rem;
         padding: 10px;
+    }
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        // display: none;
+        display: flex;
+        float: left;
+        gap: 20px;
+        font-size: 1.4rem;
+        font-family: $main-font;
+    }
+    .menu a {
+        color: $heading-color; 
+    }
+    .menu a:hover {
+        border-bottom: 2px solid $decoration-color;
     }
 }

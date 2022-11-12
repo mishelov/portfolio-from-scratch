@@ -1,5 +1,5 @@
 .responsive-nav {
-  display: none;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 5px;
@@ -13,6 +13,22 @@
   color: #787878;
   font-size: 2.2rem;
   padding: 10px;
+}
+.responsive-nav .menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  float: left;
+  gap: 20px;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+.responsive-nav .menu a {
+  color: #08fdd8;
+}
+.responsive-nav .menu a:hover {
+  border-bottom: 2px solid #fd2155;
 }
 
 /*# sourceMappingURL=responsive-nav.css.map */

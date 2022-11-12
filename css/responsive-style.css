@@ -11,6 +11,9 @@
   .head-content .head-content-top {
     margin-left: 70px;
   }
+  #footer-container {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=responsive-style.css.map */
