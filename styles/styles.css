@@ -42,7 +42,9 @@ p::first-letter {
 
 /* main content */
 /* Heading */
-
+.responsive-separator {
+    display: none;
+}
 .main {
     margin-left: 202.23px;
 } 

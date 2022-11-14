@@ -67,7 +67,7 @@ textarea {
 textarea:hover {
     border-bottom: 3px solid #fd2155;
 }
-input {
+.input {
     height: 40px;
     width: 300px;
     font-size: 1.1rem;
@@ -121,5 +121,8 @@ input:hover {
 .inputs button {
     width: 170px;
     margin-bottom: 0;
+}
+.responsive-btn {
+    display: none;
 }
 

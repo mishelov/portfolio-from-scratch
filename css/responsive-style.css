@@ -5,15 +5,35 @@
   #main {
     margin: 0;
   }
-  .responsive-nav {
+  .nav-container {
+    margin: 0;
+    position: fixed;
+    background: #1d1d1d;
+    width: 100%;
+    z-index: 99;
+  }
+  .nav-container .responsive-nav {
     display: flex;
+  }
+  #separator {
+    display: flex;
+    height: 50px;
   }
   .head-content .head-content-top {
     margin-left: 70px;
   }
+  #about-responsive {
+    margin-bottom: 70px;
+  }
   .about .fake-about {
     font-size: 14rem;
     left: -120px;
+  }
+  #education-responsive {
+    margin-bottom: 30px;
+  }
+  .education .education-header {
+    margin-bottom: 20px;
   }
   .education .fake-education {
     font-size: 14rem;
@@ -26,6 +46,75 @@
   }
   .skills-container {
     flex-direction: column;
+  }
+  .skill-bars {
+    margin-bottom: 20px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .form-container .input {
+    width: 100%;
+  }
+  .form-container .inputs-text {
+    flex-direction: column;
+    width: 400px;
+  }
+  .form-container .inputs-text .inputs .form-input.subject {
+    margin-bottom: 0;
+  }
+  .form-container .inputs-text .inputs button {
+    display: none;
+  }
+  .form-container .inputs-text .responsive-btn {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .form-container .textarea {
+    width: 100%;
+  }
+  #footer-container {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+  }
+  #nav .nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #nav .nav-content .profile-img {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 70px;
+    border-radius: 3px;
+  }
+  #nav .nav-content .btn-nav {
+    flex-direction: row;
+    margin: 0;
+    gap: 5px;
+    margin-right: 10px;
+  }
+  #nav .nav-content .btn-nav button {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  #separator {
+    display: inline-block;
+    height: 100px;
+  }
+  #main {
+    margin: 0;
   }
   #footer-container {
     margin: 0;
