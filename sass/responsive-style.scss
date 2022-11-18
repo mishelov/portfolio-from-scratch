@@ -49,11 +49,13 @@
       top: 70px;
     }
   }
-  .skills-content .fake-sentence {
-    font-size: 11rem;
-    left: -52px;
-    top: 93px;
-  }
+  .skills-content {
+    .fake-sentence {
+      font-size: 11rem;
+      left: -52px;
+      top: 93px;
+    }
+  } 
   .skills-container {
     flex-direction: column;
   }
@@ -126,10 +128,50 @@
     display: inline-block;
     height: 100px;
   }
+  .about {
+    .fake-about {
+      font-size: 18rem;
+      left: -120px;
+    }
+  }
+  #education-responsive {
+    margin-bottom: 30px;
+    .fake-education {
+      font-size: 18rem;
+      top: 70px;
+    }
+  }
+
+  #skills-section {
+    margin-bottom: 30px;
+    .skills-container {
+      flex-direction: column;
+      .tech-skills {
+      margin-bottom: 30px;
+    }
+  }
+}
+.skills-content {
+  .fake-sentence {
+    font-size: 13rem;
+    left: -52px;
+    top: 93px;
+  }
+} 
+.contacts-container {
+  .box h6 {
+    font-size: 1.07rem;
+  }
+}
   #main {
     margin: 0;
   }
   #footer-container {
     margin: 0;
   }
+}
+
+
+@media only screen and (max-width: $breakpoint-laptop) {
+
 }

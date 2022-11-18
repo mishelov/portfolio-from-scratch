@@ -30,7 +30,7 @@ $(document).ready(function(){
 // responsive menu
 
 $(".burger-menu").on("click", function(){
-   $(".menu").toggleClass("close-menu");
+   $(".menu").slideToggle("close-menu");
    $(".menu").toggleClass("open-menu");
  });
  
