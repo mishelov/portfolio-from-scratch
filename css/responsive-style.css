@@ -207,5 +207,61 @@
     margin: 0;
   }
 }
+@media only screen and (max-width: 1024px) {
+  #nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+  }
+  #nav .nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #nav .nav-content .profile-img {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 70px;
+    border-radius: 3px;
+  }
+  #nav .nav-content .btn-nav {
+    flex-direction: row;
+    margin: 0;
+    gap: 15px;
+    margin-right: 20px;
+  }
+  #nav .nav-content .btn-nav button {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  .about .fake-about {
+    font-size: 24rem;
+    left: -120px;
+    top: 80px;
+  }
+  #education-responsive {
+    margin-bottom: 30px;
+  }
+  #education-responsive .fake-education {
+    font-size: 24rem;
+    top: 70px;
+  }
+  .skills-content .fake-sentence {
+    font-size: 18rem;
+    left: -52px;
+    top: 93px;
+  }
+  #separator {
+    display: inline-block;
+    height: 100px;
+  }
+  #main {
+    margin: 0;
+  }
+  #footer-container {
+    margin: 0;
+  }
+}
 
 /*# sourceMappingURL=responsive-style.css.map */
