@@ -28,10 +28,11 @@ $(document).ready(function(){
 });
 
 // responsive menu
+$(document).ready(function () {
+   $(".burger-menu").on("click", function(){
+      $(".menu").slideToggle("close-menu");
+      $(".menu").toggleClass("open-menu");
+   });   
+});
 
-$(".burger-menu").on("click", function(){
-   $(".menu").slideToggle("close-menu");
-   $(".menu").toggleClass("open-menu");
- });
- 
  

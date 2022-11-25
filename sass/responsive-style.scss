@@ -3,7 +3,7 @@
 
 
 
-@media only screen and (max-width: $breakpoint-old-pc) {
+@media only screen and (max-width: $breakpoint-old-monitors) {
   #nav {
     position: fixed;
     width: 100%;
@@ -40,7 +40,7 @@
     }
   }
 
-  #education-responsive {
+  .education {
     margin-bottom: 30px;
     .fake-education {
       font-size: 24rem;
@@ -55,74 +55,15 @@
       top: 93px;
     }
   }
-
-  #separator {
-    display: inline-block;
-    height: 100px;
-  }
-  #main {
-    margin: 0;
-  }
-  #footer-container {
-    margin: 0;
-  }
-}
-
-@media only screen and (max-width: $breakpoint-laptop) {
-  #nav {
-    position: fixed;
-    width: 100%;
-    height: 100px;
-    .nav-content {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      .profile-img {
-        margin: 0;
-        width: 80px;
-        height: 80px;
-        margin-left: 70px;
-        border-radius: 3px;
-      }
-      .btn-nav {
-        flex-direction: row;
-        margin: 0;
-        gap: 5px;
-        margin-right: 10px;
-        button {
-          font-size: 1.1rem;
-          margin: 0;
-        }
-      }
-    }
-  }
-  #separator {
-    display: inline-block;
-    height: 100px;
-  }
-  .about {
-    .fake-about {
-      font-size: 23rem;
-      left: -120px;
-      top: 80px;
-    }
-  }
-  #education-responsive {
-    margin-bottom: 30px;
-    .fake-education {
-      font-size: 24rem;
-      top: 70px;
-    }
-  }
-
-  .skills-content {
-    .fake-sentence {
+  .contacts-container {
+    .fake-contacts {
       font-size: 17rem;
-      left: -52px;
-      top: 93px;
     }
   }
-
+  #separator {
+    display: inline-block;
+    height: 100px;
+  }
   #main {
     margin: 0;
   }
@@ -168,9 +109,10 @@
     .fake-about {
       font-size: 18rem;
       left: -120px;
+      top: -10px;
     }
   }
-  #education-responsive {
+  .education {
     margin-bottom: 30px;
     .fake-education {
       font-size: 18rem;
@@ -200,6 +142,10 @@
   .contacts-container {
     .box h6 {
       font-size: 1.07rem;
+    }
+    .fake-contacts {
+      font-size: 13rem;
+      left: -95px;
     }
   }
   #main {
@@ -270,6 +216,12 @@
   }
   .skill-bars {
     margin-bottom: 20px;
+  }
+  .contacts-container {
+    .fake-contacts {
+      font-size: 10rem;
+      left: -66px;
+    }
   }
   .form-container {
     display: flex;
