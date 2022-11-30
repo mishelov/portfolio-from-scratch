@@ -106,3 +106,6 @@ p::first-letter {
     left: 0px;
     bottom: -25px;
 }
+:root {
+    --drop-color: #fd2155;
+}

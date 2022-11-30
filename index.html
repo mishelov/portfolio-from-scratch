@@ -1,490 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stoyanov</title>
 
-    <!-- Font Awesome  -->
-    <script
-      src="https://kit.fontawesome.com/17191b29a1.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stoyanov</title>
 
-    <script src="https://kit.fontawesome.com/17191b29a1.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome  -->
+  <script src="https://kit.fontawesome.com/17191b29a1.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <!--Responsive  CSS -->
-    <link rel="stylesheet" href="css/responsive-nav.css">
-    <link rel="stylesheet" href="css/responsive-style.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="./styles/form.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/education.css" />
-    <link rel="stylesheet" href="./styles/about-section.css" />
-    <link rel="stylesheet" href="./styles/navbar.css" />
-    <link rel="stylesheet" href="./styles/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="nav-container">
-        
-        <!--Responsive Navigation -->
-        
-        <div class="responsive-nav">
-          <div class="logo">
-            <a href="#">
-              <img src="images/or-logo.png" alt="Logo">
-            </a>
-          </div>
-          <div class="menu">
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="https://drive.google.com/file/d/1kKggijEatPnLp_risrHXrERn9YSgUnvd/view?usp=share_link" target="_blank">CV</a></li>
-              <li><a href="#contacts">Find Me</a></li>
-            </ul>
-          </div>
-          <div class="responsive-menu">
-            <a href="#"class="burger-menu">
-              <i class="fa-solid fa-bars"></i>
-            </a>
+  <script src="https://kit.fontawesome.com/17191b29a1.js" crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!--Responsive  CSS -->
+  <link rel="stylesheet" href="css/responsive-nav.css">
+  <link rel="stylesheet" href="css/responsive-style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/form.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/education.css">
+  <link rel="stylesheet" href="./styles/about-section.css">
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-container">
+
+      <!--Responsive Navigation -->
+
+      <div class="responsive-nav">
+        <div class="logo">
+          <a href="#">
+            <img src="images/or-logo.png" alt="Logo">
+          </a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="https://drive.google.com/file/d/1kKggijEatPnLp_risrHXrERn9YSgUnvd/view?usp=share_link"
+                target="_blank">CV</a></li>
+            <li><a href="#contacts">Find Me</a></li>
+          </ul>
+        </div>
+        <div class="responsive-menu">
+          <a href="#" class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <nav>
+        <div class="nav" id="nav">
+          <span class="open-nav tags">&lt;nav&gt;</span>
+          <div class="nav-content">
+
+            <!-- Profile img -->
+
+            <div class="profile-img"></div>
+
+            <!-- Buttons -->
+
+            <div class="btn-nav" id="btn-nav">
+              <button class="button type1 btn" id="btn-one">About</button>
+              <button class="button type1 btn" id="btn-two">Education</button>
+              <button class="button type1 btn" id="btn-three">Skills</button>
+              <button class="button type1" id="btn-four">Download CV</button>
+              <button class="button type1 btn" id="btn-five">Find Me</button>
+            </div>
+            <span class="closing-nav tags">&lt;&#47;nav&gt;</span>
           </div>
         </div>
-        
-        <!-- Navigation -->
-        <nav>
-          <div class="nav" id="nav">
-            <span class="open-nav tags">&lt;nav&gt;</span>
-            <div class="nav-content">
+      </nav>
+    </div>
+    <div class="responsive-separator" id="separator"></div>
+    <div class="main-container">
 
-              <!-- Profile img -->
+      <!-- Main content -->
 
-              <div class="profile-img"></div>
-
-              <!-- Buttons -->
-
-              <div class="btn-nav" id="btn-nav">
-                <button class="button type1 btn" id="btn-one">About</button>
-                <button class="button type1 btn" id="btn-two">Education</button>
-                <button class="button type1 btn" id="btn-three">Skills</button>
-                <button class="button type1" id="btn-four">Download CV</button>
-                <button class="button type1 btn" id="btn-five" >Find Me</button>
-              </div>
-              <span class="closing-nav tags">&lt;&#47;nav&gt;</span>
+      <main>
+        <div class="main" id="main">
+          <div class="main-content">
+            <div class="top-tags">
+              <span class="tags">&lt;html&gt;</span>
+              <span class="body-tag tags">&lt;body&gt;</span>
             </div>
-          </div>
-        </nav>
-      </div>
-      <div class="responsive-separator" id="separator"></div>
-      <div class="main-container">
 
-        <!-- Main content -->
+            <!-- Section Heading -->
 
-        <main>
-          <div class="main" id="main">
-            <div class="main-content">
-              <div class="top-tags">
-                <span class="tags">&lt;html&gt;</span>
-                <span class="body-tag tags">&lt;body&gt;</span>
+            <section>
+              <div class="head-content">
+                <div class="head-content-top">
+                  <h1>
+                    <span class="h-one-tag tags">&lt;h1&gt;</span>
+                    Hi,<br>I`m <span class="letter-o">S</span>toyanov
+                    <span class="h-one-closing-tag tags">&lt;&#47;h1&gt;</span>
+                  </h1>
+                </div>
+                <div class="head-content-bottom">
+                  <h2>
+                    <span class="front-end tags">&lt;h2&gt;</span>
+                    Front-End Developer
+                    <span class="front-end-closing tags">&lt;&#47;h2&gt;</span>
+                  </h2>
+                </div>
               </div>
+            </section>
 
-              <!-- Section Heading -->
+            <!-- About section -->
 
-              <section>
-                <div class="head-content">
-                  <div class="head-content-top">
-                    <h1>
-                      <span class="h-one-tag tags">&lt;h1&gt;</span>
-                      Hi,<br />I`m <span class="letter-o">S</span>toyanov
-                      <span class="h-one-closing-tag tags"
-                        >&lt;&#47;h1&gt;</span
-                      >
-                    </h1>
-                  </div>
-                  <div class="head-content-bottom">
-                    <h2>
-                      <span class="front-end tags">&lt;h2&gt;</span>
-                      Front-End Developer
-                      <span class="front-end-closing tags"
-                        >&lt;&#47;h2&gt;</span
-                      >
-                    </h2>
-                  </div>
+            <section>
+              <div class="about" id="about-responsive">
+                <div class="fake-about">About</div>
+                <div class="about-header">
+                  <span class="about-open tags" id="about">&lt;h2&gt;</span>
+                  <h2 id="animated-about">About</h2>
+                  <span class="about-closing tags">&lt;&#47;h2&gt;</span>
                 </div>
-              </section>
-
-              <!-- About section -->
-
-              <section>
-                <div class="about" id="about-responsive">
-                  <div class="fake-about">About</div>
-                  <div class="about-header">
-                    <span class="about-open tags" id="about">&lt;h2&gt;</span>
-                    <h2>About</h2>
-                    <span class="about-closing tags">&lt;&#47;h2&gt;</span>
-                  </div>
-                  <div class="about-content">
-                    <span class="open-about-p tags">&lt;p&gt;</span>
-                    <p>
-                      Hello, I'm Ognyan. In recent years I have been working in
-                      the field of tourism. I decided to retrain in the IT
-                      sector, successfully completed a course in July in Java
-                      programming at Soft-Academy Sofia, the course covered:
-                      OOP, Principles of OOP, Database, Text-Processing.
-                      Successfully completed HTML course at w3schools, increased
-                      my interest in Front End Programming. I started training
-                      in various online platforms and gained experience in HTML,
-                      CSS and knowledge of JavaScript and Bootstrap.
-                    </p>
-                    <span class="closing-about-p tags">&lt;&#47;p&gt;</span>
-                  </div>
+                <div class="about-content">
+                  <span class="open-about-p tags">&lt;p&gt;</span>
+                  <p>
+                    Hello, I'm Ognyan. In recent years I have been working in
+                    the field of tourism. I decided to retrain in the IT
+                    sector, successfully completed a course in July in Java
+                    programming at Soft-Academy Sofia, the course covered:
+                    OOP, Principles of OOP, Database, Text-Processing.
+                    Successfully completed HTML course at w3schools, increased
+                    my interest in Front End Programming. I started training
+                    in various online platforms and gained experience in HTML,
+                    CSS and knowledge of JavaScript and Bootstrap.
+                  </p>
+                  <span class="closing-about-p tags">&lt;&#47;p&gt;</span>
                 </div>
-              </section>
+              </div>
+            </section>
 
-              <!-- Education  -->
+            <!-- Education  -->
 
-              <section>
-                <div class="education" id="education-responsive">
-                  <div class="fake-education">Learn</div>
-                  <div class="education-header">
-                    <span class="education-open tags" id="education"
-                      >&lt;h2&gt;</span
-                    >
-                    <h2>Education</h2>
-                    <span class="education-closing tags">&lt;&#47;h2&gt;</span>
-                  </div>
-                  <span class="card-open tags">&lt;section&gt;</span>
-                  <div class="education-content">
-
-                    <!-- left card -->
-
-                    <div class="card">
-                      <!-- <div class="card-header-one"></div> -->
-                      <div class="card-content">
-                        <h3>Web Programming</h3>
-                        <!-- TODO: I need to finish the anchor -->
-                        <a href="https://softacademy.bg/" target="_blank"
-                          >Soft-Academy</a
-                        >
-                        <h4>27.09.2022 - In Progress</h4>
-                        <ul>
-                          <li>
-                            <span>&rarr;</span> Semantic HTML5 Layout. New HTML5
-                            tags.
-                            <br />
-                            Introduction to CSS.
-                          </li>
-                          <li>
-                            <span>&rarr;</span> CSS Positioning: Box Model,
-                            Flexbox, Grid.
-                          </li>
-                          <li><span>&rarr;</span> SASS preprocessor.</li>
-                          <li><span>&rarr;</span> JavaScript, jQuery.</li>
-                          <li>
-                            <span>&rarr;</span> AJAX and JSON. Dynamic content
-                            loading.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <!-- right card -->
-
-                    <div class="card">
-                      <!-- <div class="card-header-two"></div> -->
-                      <div class="card-content">
-                        <h3>Java Programming</h3>
-                        <a href="https://softacademy.bg/" target="_blank"
-                          >Soft-Academy</a
-                        >
-                        <h4>05.05.2022 - 05.08.2022</h4>
-                        <ul>
-                          <li>
-                            <span>&rarr;</span> Introduction to OOP: Classes,
-                            objects,
-                            <br />
-                            methods.
-                          </li>
-                          <li>
-                            <span>&rarr;</span> Interfaces, abstract classes.
-                            Polymorphism.
-                          </li>
-                          <li>
-                            <span>&rarr;</span> Data structures: Stack, Queue,
-                            List
-                          </li>
-                          <li><span>&rarr;</span> Text Formating</li>
-                          <!-- <li><span>&rarr;</span> For more subjects</li> -->
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <span class="card-closing tags">&lt;&#47;section&gt;</span>
-                </div>
-              </section>
-
-              <!-- SKILLS -->
-
-              <section>
-                <div class="skills-section-container" id="skills-section">
-                  <div class="skills-content">
-                    <div class="skills-header">
-                      <span class="education-open tags" id="skills"
-                        >&lt;h2&gt;</span
-                      >
-                      <h2>Skills</h2>
-                      <span class="education-closing tags"
-                        >&lt;&#47;h2&gt;</span
-                      >
-                    </div>
-                    <div class="fake-sentence">Success</div>
-                    <div class="skills-container">
-
-                      <!-- left tech skills -->
-
-                      <div class="card-skills tech-skills">
-                        <div class="card-header">
-                          <h3>
-                            <span class="technical-opening tags"
-                              >&lt;h3&gt;</span
-                            >
-                            Technical skills
-                            <span class="technical-closing tags"
-                              >&lt;&#47;h3&gt;</span
-                            >
-                          </h3>
-                        </div>
-                        <span class="technical-closing tags"
-                          >&lt;section&gt;</span
-                        >
-                        <div class="skill-bars">
-                          <span>HTML</span>
-                          <div class="skill-bar" data-percent="80%">
-                            <div class="bar">
-                              <span class="bar-percent">80%</span>
-                            </div>
-                          </div>
-                          <span>CSS</span>
-                          <div class="skill-bar" data-percent="70%">
-                            <div class="bar">
-                              <span class="bar-percent">70%</span>
-                            </div>
-                          </div>
-                          <span>JavaScript</span>
-                          <div class="skill-bar" data-percent="50%">
-                            <div class="bar">
-                              <span class="bar-percent">50%</span>
-                            </div>
-                          </div>
-                          <span>Java</span>
-                          <div class="skill-bar" data-percent="60%">
-                            <div class="bar">
-                              <span class="bar-percent">60%</span>
-                            </div>
-                          </div>
-                          <span class="technical-closing tags"
-                            >&lt;&#47;section&gt;</span
-                          >
-                        </div>
-                      </div>
-
-                      <!-- right soft skills -->
-                      <div class="card-skills soft skills">
-                        <div class="card-header">
-                          <h3>
-                            <span class="technical-opening tags"
-                              >&lt;h3&gt;</span
-                            >
-                            Soft skills
-                            <span class="technical-closing tags">&lt;&#47;h3&gt;</span>
-                          </h3>
-                        </div>
-
-                        <div class="skills-card-content">
-                          <span class="soft-p-opening tags">&lt;p&gt;</span>
-                          <p>
-                            My many years of experience int the field of tourism
-                            and hospitality and the positions I have held from
-                            trainee to supervisor have helped me to acquire and
-                            improve in the following skills.
-                          </p>
-                          <span class="soft-p-closing tags"
-                            >&lt;&#47;p&gt;</span
-                          >
-                          <ul>
-                            <li>Comunication</li>
-                            <li>Time Management</li>
-                            <li>Cooperation</li>
-                            <li>Adaptability</li>
-                            <li>Problem Solving</li>
-                            <li>Organization</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <!-- Contacts -->
-              <section>
-                <div class="contacts-header">
-                  
-                  <span class="education-open tags" id="contacts"
-                    >&lt;h2&gt;</span
-                  >
-                  <h2>Find Me</h2>
+            <section>
+              <div class="education" id="education-responsive">
+                <div class="fake-education">Learn</div>
+                <div class="education-header">
+                  <span class="education-open tags" id="education">&lt;h2&gt;</span>
+                  <h2 id="animated-education">Education</h2>
                   <span class="education-closing tags">&lt;&#47;h2&gt;</span>
                 </div>
-                <div class="contacts-container">
-                  <div class="fake-contacts">Contacts</div>
-                  <div class="box">
-                    <div class="svg svg-phone"></div>
-                    <h6>+359 876 663 394</h6>
+                <span class="card-open tags">&lt;section&gt;</span>
+                <div class="education-content">
+
+                  <!-- left card -->
+
+                  <div class="card">
+                    <!-- <div class="card-header-one"></div> -->
+                    <div class="card-content">
+                      <h3>Web Programming</h3>
+                      <!-- TODO: I need to finish the anchor -->
+                      <a href="https://softacademy.bg/" target="_blank">Soft-Academy</a>
+                      <h4>27.09.2022 - In Progress</h4>
+                      <ul>
+                        <li>
+                          <span>&rarr;</span> Semantic HTML5 Layout. New HTML5
+                          tags.
+                          <br />
+                          Introduction to CSS.
+                        </li>
+                        <li>
+                          <span>&rarr;</span> CSS Positioning: Box Model,
+                          Flexbox, Grid.
+                        </li>
+                        <li><span>&rarr;</span> SASS preprocessor.</li>
+                        <li><span>&rarr;</span> JavaScript, jQuery.</li>
+                        <li>
+                          <span>&rarr;</span> AJAX and JSON. Dynamic content
+                          loading.
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="box">
-                    <div class="svg svg-loc"></div>
-                    <h6>Bulgaria</h6>
-                  </div>
-                  <div class="box">
-                    <div class="svg svg-email"></div>
-                    <h6>o.r.stoyanov@gmail.com</h6>
+
+                  <!-- right card -->
+
+                  <div class="card">
+                    <!-- <div class="card-header-two"></div> -->
+                    <div class="card-content">
+                      <h3>Java Programming</h3>
+                      <a href="https://softacademy.bg/" target="_blank">Soft-Academy</a>
+                      <h4>05.05.2022 - 05.08.2022</h4>
+                      <ul>
+                        <li>
+                          <span>&rarr;</span> Introduction to OOP: Classes,
+                          objects,
+                          <br>
+                          methods.
+                        </li>
+                        <li>
+                          <span>&rarr;</span> Interfaces, abstract classes.
+                          Polymorphism.
+                        </li>
+                        <li>
+                          <span>&rarr;</span> Data structures: Stack, Queue,
+                          List
+                        </li>
+                        <li><span>&rarr;</span> Text Formating</li>
+                        <!-- <li><span>&rarr;</span> For more subjects</li> -->
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </section>
-              <!-- contact form -->
-              <!-- I need to finish with tag decor -->
-              <section>
-                <div class="form-container">
-                  <div class="contact-me">
-                    <h6>
-                      <span class="me-opening tags"
-                        >&lt;h6&gt;</span>
-                      Contact <br>
-                      <span class="me">Me</span>
-                      <span class="me-closing tags"
-                        >&lt;&#47;h6&gt;</span>
-                    </h6>
+                <span class="card-closing tags">&lt;&#47;section&gt;</span>
+              </div>
+            </section>
+
+            <!-- SKILLS -->
+
+            <section>
+              <div class="skills-section-container" id="skills-section">
+                <div class="skills-content">
+                  <div class="skills-header">
+                    <span class="education-open tags" id="skills">&lt;h2&gt;</span>
+                    <h2 id="animated-skills">Skills</h2>
+                    <span class="education-closing tags">&lt;&#47;h2&gt;</span>
                   </div>
-                  <form action="mailto:o.r.stoyanov@gmail.com" method="post">
-                    <div class="inputs-text">
-                      <div class="inputs">
-                        <div class="form-input name">
-                          <input
-                            class="input"
-                            type="text"
-                            name="name"
-                            id="name"
-                            placeholder="Name"
-                            required
-                          />
-                        </div>
-                        <div class="form-input email">
-                          <input
-                            class="input"
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                            required
-                          />
-                        </div>
-                        <div class="form-input subject">
-                          <input
-                            class="input"
-                            type="text"
-                            name="subject"
-                            id="subject"
-                            placeholder="Subject"
-                            required
-                          />
-                        </div>
-                        <button
-                          type="submit"
-                          class="button type1 submit"
-                          value="Send Message"
-                        >
-                          Send Message
-                        </button>
+                  <div class="fake-sentence">Success</div>
+                  <div class="skills-container">
+
+                    <!-- left tech skills -->
+
+                    <div class="card-skills tech-skills">
+                      <div class="card-header">
+                        <h3>
+                          <span class="technical-opening tags">&lt;h3&gt;</span>
+                          Technical skills
+                          <span class="technical-closing tags">&lt;&#47;h3&gt;</span>
+                        </h3>
                       </div>
-                      <div class="text-area">
-                        <textarea
-                          class="textarea"
-                          name="textarea"
-                          id="textarea"
-                          cols="30"
-                          rows="10"
-                          placeholder="Your Message"
-                          required
-                        ></textarea>
+                      <span class="technical-closing tags">&lt;section&gt;</span>
+                      <div class="skill-bars">
+                        <span>HTML</span>
+                        <div class="skill-bar" data-percent="80%">
+                          <div class="bar">
+                            <span class="bar-percent">80%</span>
+                          </div>
+                        </div>
+                        <span>CSS</span>
+                        <div class="skill-bar" data-percent="70%">
+                          <div class="bar">
+                            <span class="bar-percent">70%</span>
+                          </div>
+                        </div>
+                        <span>JavaScript</span>
+                        <div class="skill-bar" data-percent="50%">
+                          <div class="bar">
+                            <span class="bar-percent">50%</span>
+                          </div>
+                        </div>
+                        <span>Java</span>
+                        <div class="skill-bar" data-percent="60%">
+                          <div class="bar">
+                            <span class="bar-percent">60%</span>
+                          </div>
+                        </div>
+                        <span class="technical-closing tags">&lt;&#47;section&gt;</span>
                       </div>
-                      <button
-                      id="responsive-send-message-btn"
-                      type="submit"
-                      class="button type1 submit responsive-btn"
-                      value="Send Message"
-                    >
+                    </div>
+
+                    <!-- right soft skills -->
+                    <div class="card-skills soft skills">
+                      <div class="card-header">
+                        <h3>
+                          <span class="technical-opening tags">&lt;h3&gt;</span>
+                          Soft skills
+                          <span class="technical-closing tags">&lt;&#47;h3&gt;</span>
+                        </h3>
+                      </div>
+
+                      <div class="skills-card-content">
+                        <span class="soft-p-opening tags">&lt;p&gt;</span>
+                        <p>
+                          My many years of experience int the field of tourism
+                          and hospitality and the positions I have held from
+                          trainee to supervisor have helped me to acquire and
+                          improve in the following skills.
+                        </p>
+                        <span class="soft-p-closing tags">&lt;&#47;p&gt;</span>
+                        <ul>
+                          <li>Comunication</li>
+                          <li>Time Management</li>
+                          <li>Cooperation</li>
+                          <li>Adaptability</li>
+                          <li>Problem Solving</li>
+                          <li>Organization</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Contacts -->
+            <section>
+              <div class="contacts-header">
+
+                <span class="education-open tags" id="contacts">&lt;h2&gt;</span>
+                <h2 id="animated-find-me">Find Me</h2>
+                <span class="education-closing tags">&lt;&#47;h2&gt;</span>
+              </div>
+              <div class="contacts-container">
+                <div class="fake-contacts">Contacts</div>
+                <div class="box">
+                  <div class="svg svg-phone"></div>
+                  <h6>+359 876 663 394</h6>
+                </div>
+                <div class="box">
+                  <div class="svg svg-loc"></div>
+                  <h6>Bulgaria</h6>
+                </div>
+                <div class="box">
+                  <div class="svg svg-email"></div>
+                  <h6>o.r.stoyanov@gmail.com</h6>
+                </div>
+              </div>
+            </section>
+            <!-- contact form -->
+            <!-- I need to finish with tag decor -->
+            <section>
+              <div class="form-container">
+                <div class="contact-me">
+                  <h6>
+                    <span class="me-opening tags">&lt;h6&gt;</span>
+                    Contact <br>
+                    <span class="me">Me</span>
+                    <span class="me-closing tags">&lt;&#47;h6&gt;</span>
+                  </h6>
+                </div>
+                <form action="mailto:o.r.stoyanov@gmail.com" method="post">
+                  <div class="inputs-text">
+                    <div class="inputs">
+                      <div class="form-input name">
+                        <input class="input" type="text" name="name" id="name" placeholder="Name" required>
+                      </div>
+                      <div class="form-input email">
+                        <input class="input" type="email" name="email" id="email" placeholder="Email" required>
+                      </div>
+                      <div class="form-input subject">
+                        <input class="input" type="text" name="subject" id="subject" placeholder="Subject" required>
+                      </div>
+                      <button type="submit" class="button type1 submit" value="Send Message">
+                        Send Message
+                      </button>
+                    </div>
+                    <div class="text-area">
+                      <textarea class="textarea" name="textarea" id="textarea" cols="30" rows="10"
+                        placeholder="Your Message" required></textarea>
+                    </div>
+                    <button id="responsive-send-message-btn" type="submit" class="button type1 submit responsive-btn"
+                      value="Send Message">
                       Send Message
                     </button>
-                    </div>
-                  </form>
-                </div>
-              </section>
+                  </div>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container" id="footer-container">
+          <div class="footer">
+            <div class="copyright">&copy; Ognyan Stoyanov</div>
+            <div class="footer-contacts">
+              <ul>
+                <li>
+                  <a href="https://github.com/mishelov" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ognyan-stoyanov-573854246/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="back-to-the-top">
+              <a href="#main">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
             </div>
           </div>
-        </main>
-        <!-- Footer -->
-        <footer>
-          <div class="footer-container" id="footer-container">
-            <div class="footer">
-              <div class="copyright">&copy; Ognyan Stoyanov</div>
-              <div class="footer-contacts">
-                <ul>
-                  <li>
-                    <a href="https://github.com/mishelov" target="_blank">
-                      <i class="fa-brands fa-square-github"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/ognyan-stoyanov-573854246/"
-                      target="_blank"
-                    >
-                      <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="back-to-the-top">
-                <a href="#main">
-                  <i class="fa-solid fa-arrow-up"></i>
-                </a>
-              </div>
-            </div>
-            <div class="bottom-tags">
-              <span class="body-tag-bottom tags">&lt;&#47;body&gt;</span>
-              <span class="tags">&lt;&#47;html&gt;</span>
-            </div>
+          <div class="bottom-tags">
+            <span class="body-tag-bottom tags">&lt;&#47;body&gt;</span>
+            <span class="tags">&lt;&#47;html&gt;</span>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </div>
+  </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.1.js"
-      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script src="./js/script.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/dropFont.js"></script>
+  <script src="js/textbanner.js"></script>
+</body>
+
 </html>

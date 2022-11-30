@@ -35,4 +35,26 @@ $(document).ready(function () {
    });   
 });
 
- 
+//animated test
+$(document).ready(function () {
+   $('#animated-about').textbanner();
+   $('#animated-education').textbanner();
+   $('#animated-skills').textbanner();
+   $('#animated-find-me').textbanner();
+});
+
+// $(function(){
+//    $(".animated").dropFont(20);
+//  });
+
+// var i = 1;
+// var dropHeight = 7;
+// function animateDrop() {
+//   setTimeout(function() {
+//     $(".animated").dropFont(i);
+//     i++;
+//     if (i < dropHeight)
+//       animateDrop();
+//   }, 20)
+// }
+// animateDrop();
