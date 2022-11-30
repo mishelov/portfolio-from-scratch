@@ -256,3 +256,10 @@
     margin: 0;
   }
 }
+
+@media only screen and (max-width: $breakpoint-iphone-promax) {
+  html {
+    font-size: 10px;
+  } 
+    
+}
